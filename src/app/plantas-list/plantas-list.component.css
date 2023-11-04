@@ -1,0 +1,31 @@
+.div_superior {
+    
+    height: 100px;
+  }
+img{
+    height:217px;
+    width: 917px
+
+ }
+ .col-6 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+th{
+    background-color: black;
+    color:white;
+}
+.th{
+    background-color: white;
+    color:black;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.table{
+    margin: 1%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 16px;
+     
+ }

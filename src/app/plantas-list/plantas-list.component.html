@@ -1,0 +1,38 @@
+<div class="container">
+ <div>
+  <p></p>
+  <p>VIVERO DE OTOÑO</p>
+
+ <div class="div_superior col-6">
+  
+  <img src="../../assets/forest-3804001_1280.jpg" alt=""/> 
+  <p></p>
+<div class="row "><!--[if IE]><![endif]-->
+<table class="table">
+  <thead>
+    <tr>
+      <th class=" border-info table-bordered border">#</th>
+          <th class=" border-info table-bordered border">Nombre Común</th>
+          <th class=" border-info table-bordered border">Tipo</th>
+          <th class=" border-info table-bordered border">Clima</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr *ngFor="let pla of plantas">
+      <th scope="row" class="  border-info table-bordered border th">{{pla.id}}</th>
+      <td class="  border-info table-bordered border">{{ pla.nombre_comun}} </td>
+      <td class="  border-info table-bordered border">{{ pla.tipo}} </td>
+      <td class="  border-info table-bordered border">{{ pla.clima}} </td>
+    </tr>
+
+  </tbody>
+</table>
+</div>
+<div>
+   <p>Total de plantas de interiores: {{countInt}} </p> 
+   <p>Total de plantas de Exteriores: {{countExt}}</p>
+</div>
+</div>
+</div>
+</div>
